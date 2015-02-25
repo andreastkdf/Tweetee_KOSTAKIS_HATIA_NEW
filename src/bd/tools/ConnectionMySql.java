@@ -17,7 +17,7 @@ public class ConnectionMySql {
 	{
 		if(DBStatic.mysql_pooling==false)
 		{
-			return(DriverManager.getConnection("jdbc:mysql://"+DBStatic.mysql"))
+			return(DriverManager.getConnection("jdbc:mysql://"+DBStatic.mysql"));
 		}
 	}
 	
